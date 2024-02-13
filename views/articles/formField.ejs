@@ -1,0 +1,23 @@
+<!-- Actual form will be created here and then it will be included in /new and all -->
+
+<div class="form-group">
+    <label for="title">Title</label>
+    <input required type="text" name="title" class="form-control ">
+</div>
+
+<div class="form-group">
+    <label for="description">Description</label>
+    <textarea type="text" id="description" name="description" class="form-control" ></textarea>
+     <!-- required word eliminated here bcz we dont want this field (description) to be optional -->
+</div>
+
+<div class="form-group">
+    <label for="markdown">Markdown</label>
+    <textarea required type="text" id="markdown" name="Markdown" class="form-control "></textarea>
+    
+</div>
+<br />
+
+<!-- When I will click cancel, it should redirect to the homepage of the website i.e. '/' -->
+<a href="/" class="btn btn-secondary">Cancel</a>
+<button type="submit" class="btn btn-primary">Save</button>
